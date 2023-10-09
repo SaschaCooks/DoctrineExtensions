@@ -11,7 +11,7 @@ namespace Gedmo\Mapping\Event\Adapter;
 
 use Doctrine\Common\EventArgs;
 use Doctrine\ORM\EntityManagerInterface;
-use Doctrine\ORM\Event\LifecycleEventArgs;
+use Doctrine\Persistence\Event\LifecycleEventArgs;
 use Doctrine\ORM\Mapping\ClassMetadata;
 use Gedmo\Exception\RuntimeException;
 use Gedmo\Mapping\Event\AdapterInterface;
